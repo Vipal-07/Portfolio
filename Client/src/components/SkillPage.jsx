@@ -22,7 +22,7 @@ export default function SkillPage() {
                         <h2 className="text-xl md:text-2xl font-semibold mb-2 text-blue-400">Backend</h2>
                         <div className="flex flex-row flex-wrap gap-2 text-base md:text-lg">
                             <span>Node.js,</span>
-                            <span>Socket.io,</span>
+                            <span>WebSockets,</span>
                             <span>Express</span>
                         </div>
                     </div>

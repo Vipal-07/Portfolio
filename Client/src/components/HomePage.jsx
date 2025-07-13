@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaDownload } from 'react-icons/fa'
 
 export default function HomePage() {
-   const fullText = "Full Stack Developer"
+   const fullText = "Full Stack Web Developer"
     const happyEmoji = "😊"
     const [displayText, setDisplayText] = useState(fullText)
     const [emojiVisible, setEmojiVisible] = useState(false)
@@ -38,10 +38,10 @@ export default function HomePage() {
             {/* Left Side (Text) */}
             <div className="flex flex-col gap-2 items-start justify-center w-full md:w-1/2 p-4 md:p-10">
                 <p className="text-white text-lg md:text-xl">Hello I'm</p>
-                <div className="text-2xl md:text-3xl font-bold text-blue-500 mb-4">
+                <div className="text-2xl md:text-4xl font-bold text-blue-500 mb-4">
                     <span className="text-blue-500">Vikas Maurya</span>
                 </div>
-                <div className="text-gray-300 text-base md:text-lg mb-6 min-h-[2.5rem] flex items-center">
+                <div className="text-gray-300 text-base md:text-2xl mb-6 min-h-[2.5rem] flex items-center">
                     <span>
                         And I'm&nbsp;
                         <span className="font-semibold text-blue-400">
@@ -50,13 +50,17 @@ export default function HomePage() {
                         </span>
                     </span>
                 </div>
-                <div className="text-gray-300 text-sm md:text-md mb-4">
+                <div className="text-gray-300 text-lg md:text-md mb-4">
                     <span>Hi, I'm a full-stack developer with a passion for creating dynamic and responsive web applications</span>
+                    <br></br>
+                     <span> I love building clean, responsive, and user-friendly web applications that solve real-world problems.</span>
+                     <br></br>
+                      <span>  I'm also proficient with version control (Git), deployment tools, and RESTful APIs</span>
                 </div>
-                <button className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer flex items-center gap-2 text-base md:text-lg">
+                {/* <button className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer flex items-center gap-2 text-base md:text-lg">
                     <FaDownload className="mr-2" />
                     Download CV
-                </button>
+                </button> */}
             </div>
             {/* Right Side (Image) */}
             <div className="relative flex items-center justify-center w-full md:w-1/2 mt-8 md:mt-0">

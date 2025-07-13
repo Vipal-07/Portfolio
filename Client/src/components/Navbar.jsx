@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className='fixed top-0 left-0 w-full z-50 bg-black'>
             <div className='container-fluid flex flex-row justify-between items-center bg-black text-white p-3'>
                 <div className='ml-4 md:ml-7 text-2xl font-bold'>
-                    <span>CYBERDEV</span>
+                    <span>NeonNest</span>
                 </div>
                 {/* Hamburger menu for mobile */}
                 <div className="md:hidden mr-4">
