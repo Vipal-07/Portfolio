@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaComments, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaComments, FaEnvelope, FaGithub } from "react-icons/fa";
 
 const contacts = [
     {
@@ -29,6 +29,13 @@ const contacts = [
         url: "mailto:vm6431135@gmail.com",
         icon: <FaEnvelope className="text-red-500 w-10 h-10 sm:w-12 sm:h-12" />,
         img: "https://cdn-icons-png.flaticon.com/512/732/732200.png"
+    },
+     {
+        name: "GitHub",
+        username: "Vipal-07",
+        url: "https://github.com/Vipal-07",
+        icon: <FaGithub className="text-white w-10 h-10 sm:w-12 sm:h-12" />,
+        img: "https://cdn-icons-png.flaticon.com/512/25/25231.png"
     }
 ];
 
