@@ -40,7 +40,7 @@ export default function ContactPage() {
                     <span className="text-blue-500">Let's Connect</span>
                 </div>
             </div>
-             <div className="w-full flex flex-col gap-12 sm:gap-16 items-center">
+            <div className="w-full flex flex-col gap-12 sm:gap-16 items-center">
                 {contacts.map((contact, idx) => (
                     <React.Fragment key={idx}>
                         <div
@@ -81,10 +81,10 @@ export default function ContactPage() {
                         </div>
                         {/* Thin white line shadow after each social media except last */}
                         {idx !== contacts.length - 1 && (
-            <div className="block md:hidden w-full max-w-md my-2">
-                <div className="h-[1.5px] w-full bg-white/30 shadow-[0_2px_8px_0_rgba(255,255,255,0.15)] rounded-full"></div>
-            </div>
-        )}
+                            <div className="block md:hidden w-full max-w-md my-2">
+                                <div className="h-[1.5px] w-full bg-white/30 shadow-[0_2px_8px_0_rgba(255,255,255,0.15)] rounded-full"></div>
+                            </div>
+                        )}
                     </React.Fragment>
                 ))}
             </div>

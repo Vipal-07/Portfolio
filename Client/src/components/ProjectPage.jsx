@@ -10,14 +10,14 @@ const projects = [
     {
         title: "Visiting Platform",
         video: "https://www.w3schools.com/html/movie.mp4",
-        description: "A full-featured visiting platform with user profiles, appointment scheduling. Built with view, Express, and MongoDB. Includes user authentication and real-time notifications on gmail. Website was not responsive",
+        description: "A visiting platform with user profiles, appointment scheduling. Built with view, Express, and MongoDB. Includes user authentication and real-time notifications on gmail. Website was not responsive. (This website is made during my learning phase).",
         url: "https://projectgorakhpur.onrender.com",
     },
     {
         title: "Portfolio Website",
         video: "https://www.w3schools.com/html/mov_bbb.mp4",
         description: "A personal portfolio website to showcase my skills and projects. Built with React and Tailwind CSS, featuring responsive design and smooth animations.",
-        url: "http://localhost:5173",
+        url: "https://devfolio-mkkw.onrender.com",
     },
     // Add more projects as needed
 ]

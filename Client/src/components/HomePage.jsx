@@ -51,11 +51,11 @@ export default function HomePage() {
                     </span>
                 </div>
                 <div className="text-gray-300 text-lg md:text-md mb-4">
-                    <span>Hi, I'm a full-stack developer with a passion for creating dynamic and responsive web applications</span>
+                    <p>Hi, I'm a full-stack developer with a passion for creating dynamic and responsive web applications</p>
                     <br></br>
-                     <span> I love building clean, responsive, and user-friendly web applications that solve real-world problems.</span>
+                     <p> I love building clean, responsive, and user-friendly web applications that solve real-world problems.</p>
                      <br></br>
-                      <span>  I'm also proficient with version control (Git), deployment tools, and RESTful APIs</span>
+                      <p>  I'm also proficient with version control (Git), deployment tools, and RESTful APIs</p>
                 </div>
                 {/* <button className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer flex items-center gap-2 text-base md:text-lg">
                     <FaDownload className="mr-2" />
