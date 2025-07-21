@@ -19,7 +19,12 @@ const projects = [
         description: "A personal portfolio website to showcase my skills and projects. Built with React and Tailwind CSS, featuring responsive design and smooth animations.",
         url: "https://devfolio-mkkw.onrender.com",
     },
-    // Add more projects as needed
+    {
+        title: "PingMyHeart",
+        video: "https://www.w3schools.com/html/mov_bbb.mp4",
+        description: "PingMyHeart is a fun web app for proposing your crush online. Send anonymous or personalized proposals, get instant responses, and enjoy a playful, interactive experience. Built with React and Node.js.",
+        url: "https://ping-myheart.onrender.com", 
+    },
 ]
 
 export default function ProjectPage() {
@@ -39,7 +44,6 @@ export default function ProjectPage() {
                             ${idx % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}
                         `}
                     >
-                        {/* Desktop video with blue shadow */}
                         <div className="relative flex items-center justify-center w-full md:w-1/2 mb-6 md:mb-0">
                             <div className="absolute w-40 h-40 sm:w-56 sm:h-56 md:w-80 md:h-80 rounded-full bg-blue-500 blur-2xl opacity-60 z-0"></div>
                             <div className="relative rounded-2xl border-4 border-green-600 p-1 sm:p-2 shadow-lg shadow-green-500/50 z-10 bg-gray-900">
@@ -54,7 +58,6 @@ export default function ProjectPage() {
                                 />
                             </div>
                         </div>
-                        {/* Project details */}
                         <div className="flex flex-col items-start justify-center w-full md:w-1/2 p-2 sm:p-4 md:p-6">
                             <div className="text-xl sm:text-2xl font-bold text-blue-400 mb-2">{project.title}</div>
                             <div className="text-gray-300 text-sm sm:text-md mb-2">{project.description}</div>

@@ -56,7 +56,6 @@ export default function ContactPage() {
                                 ${idx % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}
                             `}
                         >
-                            {/* Social Media Image with blue shadow */}
                             <div className="relative flex items-center justify-center w-full md:w-1/2 mb-6 md:mb-0">
                                 <div className="absolute w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-full bg-blue-500 blur-2xl opacity-60 z-0"></div>
                                 <div className="relative rounded-full border-4 border-green-600 p-1 sm:p-2 shadow-lg shadow-green-500/50 z-10 bg-gray-900 flex items-center justify-center">
@@ -67,7 +66,6 @@ export default function ContactPage() {
                                     />
                                 </div>
                             </div>
-                            {/* Contact details */}
                             <div className="flex flex-col items-start justify-center w-full md:w-1/2 p-2 sm:p-6">
                                 <div className="flex items-center gap-3 sm:gap-4 mb-2">
                                     {contact.icon}
@@ -86,7 +84,6 @@ export default function ContactPage() {
                                 </a>
                             </div>
                         </div>
-                        {/* Thin white line shadow after each social media except last */}
                         {idx !== contacts.length - 1 && (
                             <div className="block md:hidden w-full max-w-md my-2">
                                 <div className="h-[1.5px] w-full bg-white/30 shadow-[0_2px_8px_0_rgba(255,255,255,0.15)] rounded-full"></div>

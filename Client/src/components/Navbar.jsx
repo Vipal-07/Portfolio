@@ -11,13 +11,11 @@ export default function Navbar() {
                 <div className='ml-4 md:ml-7 text-2xl font-bold'>
                     <span>NeonNest</span>
                 </div>
-                {/* Hamburger menu for mobile */}
                 <div className="md:hidden mr-4">
                     <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
                         {menuOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
                     </button>
                 </div>
-                {/* Desktop menu */}
                 <div className='hidden md:flex flex-row md:w-1/3 justify-around text-lg font-semibold'>
                     <Link to="/">Home</Link>
                     <Link to="/skills">Skills</Link>
@@ -25,7 +23,6 @@ export default function Navbar() {
                     <Link to="/contacts">Contacts</Link>
                 </div>
             </div>
-            {/* Mobile menu */}
             {menuOpen && (
                 <div className="md:hidden bg-black text-white w-full flex flex-col items-center py-4 space-y-4 shadow-lg">
                     <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
